@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cv"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="your job"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:hint="phone"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="500dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#008E24AA"
+        android:bufferType="spannable"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#741E88E5"
+        android:text="Next"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/dia"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#008E24AA"
+        android:text="open dialog"
+        android:textSize="19sp" />
+</RelativeLayout>
